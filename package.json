@@ -1,7 +1,6 @@
 {
   "name": "sever-shadowcartel",
   "version": "1.0.0",
-  "description": "Shadow Cartel System",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
