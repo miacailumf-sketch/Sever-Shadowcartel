@@ -220,4 +220,4 @@ def logout(): session.clear(); return redirect(url_for('login'))
 def bg_image(): return send_file(BACKGROUND_IMAGE, mimetype='image/png') if os.path.exists(BACKGROUND_IMAGE) else ("Not Found", 404)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=10000)
