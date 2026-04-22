@@ -12,7 +12,7 @@ app.permanent_session_lifetime = timedelta(days=7)
 
 # ==================== CẤU HÌNH ====================
 UPLOAD_BASE = 'shadow_data'
-BACKGROUND_IMAGE = 'image_6.png'
+BACKGROUND_IMAGE = 'image_7.png'
 os.makedirs(UPLOAD_BASE, exist_ok=True)
 
 # Database
